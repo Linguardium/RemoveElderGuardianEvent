@@ -2,22 +2,18 @@
 	"schemaVersion": 1,
 	"id": "${modid}",
 	"version": "${version}",
-	"name": "MixinOnlyTemplate",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Remove Guardian Event",
+	"description": "removes Elder Guardian particle and sound",
 	"authors": [
-		"Me!"
+		"Linguardium"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
 	"license": "CC0-1.0",
 	"icon": "assets/mixinonlytemplate/icon.png",
 	"environment": "client",
 	"entrypoints": { },
 	"mixins": [
 		{
-			"config": "mixinonlytemplate.client.mixins.json",
+			"config": "removeguardianevent.client.mixins.json",
 			"environment": "client"
 		}
 	],
